@@ -9,7 +9,7 @@ In the Home Assistant add-on store, a possibility to add a repository is provide
 Use the following URL to add this repository:
 
 ```
-https://github.com/TheBestMoshe/home-assistant-addons
+https://github.com/petewasher/home-assistant-addons
 ```
 
 ## Add-ons provided by this repository

@@ -8,6 +8,8 @@ _Paperless is an application that manages your personal documents. With the help
 
 Read more in the project's [Readme](https://github.com/jonaswinkler/paperless-ng)
 
+This project was originally developed by TheBestMoshe in [this repository](https://github.com/TheBestMoshe/home-assistant-addons). 
+
 ## Installation
 
 The installation of this add-on is pretty straightforward and not different in

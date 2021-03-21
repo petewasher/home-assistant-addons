@@ -47,7 +47,7 @@ RUN apt-get update \
     && mkdir /var/log/supervisord /var/run/supervisord
 
 # Download release of Paperless-ng
-RUN wget -O paperless.tar.xz https://github.com/jonaswinkler/paperless-ng/releases/download/ng-1.1.4/paperless-ng-1.1.4.tar.xz \
+RUN wget -O paperless.tar.xz https://github.com/jonaswinkler/paperless-ng/releases/download/ng-1.3.2/paperless-ng-1.3.2.tar.xz \
     && 7z x paperless.tar.xz \
     && 7z x paperless.tar -o/usr/src/ \
     && cd /usr/src 

@@ -1,0 +1,22 @@
+name: 'Release to docker hub'
+on:
+  workflow_dispatch:
+    inputs:
+      versionName:
+        description: 'Name of version  (ie 5.5.0)'
+        required: true
+
+jobs:
+  build:
+    name: Build of paperless-ng
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout the repository
+      uses: actions/checkout@v2
+    - name: Release build
+      uses: home-assistant/builder@master
+      with:
+        args: |
+          --all \
+          --target paperless-ng \
+          --docker-hub cyclickdevelopment

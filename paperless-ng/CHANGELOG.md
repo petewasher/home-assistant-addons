@@ -1,4 +1,6 @@
 # Changelog
+## 0.2.2
+- Collect paperless-ng v1.3.2 and add appropriate deps.
 
 ## 0.2.1
 - Collect paperless-ng v1.1.4
